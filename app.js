@@ -3,6 +3,7 @@ const getMyNotes = require('./notes.js')
 const yargs = require('yargs')
 const { demandOption } = require('yargs')
 
+//create 'list' command
 yargs.command({
     command: 'list',
     describe: 'List out all a notes',
